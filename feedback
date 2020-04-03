@@ -1,0 +1,1097 @@
+============================================
+vis/output.txt
+20:39:19_Thursday_12_September_2019
+============================================
+
+Compiling with gcc -Wall -std=c99 ... 
+Compilation succeeded.
+==4500== Memcheck, a memory error detector
+==4500== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==4500== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==4500== Command: flow ../data/flow_data.csv 10
+==4500== 
+TASK 1:  14774.66 milliseconds
+TASK 2:  20166.71 milliseconds
+TASK 3 Array Linear Search:  5.16 milliseconds
+TASK 3 Array Binary Search:  2.12 milliseconds
+TASK 3 List Linear Search:  2.54 milliseconds
+TASK 3 BST Search:  1.81 milliseconds
+TASK 3:  14755.76 milliseconds
+TASK 4:  17962.94 milliseconds
+==4500== 
+==4500== HEAP SUMMARY:
+==4500==     in use at exit: 0 bytes in 0 blocks
+==4500==   total heap usage: 1,483,740 allocs, 1,483,740 frees, 376,967,524 bytes allocated
+==4500== 
+==4500== All heap blocks were freed -- no leaks are possible
+==4500== 
+==4500== For counts of detected and suppressed errors, rerun with: -v
+==4500== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)
+============================================
+Test for input file: flow_data.csv
+============================================
+vis/yuxliang-output.txt
+20:39:19_Thursday_12_September_2019
+============================================
+======================================================
+                      TASK 1                          
+======================================================
+rho,u,v,x,y
+0.970128,1.286088,-0.053048,30.677128,-2.150248
+0.942989,0.455909,0.085065,25.380268,0.320000
+0.944110,0.682245,0.489840,25.850040,0.040000
+0.958222,0.907844,-0.419425,29.292643,0.200000
+======================================================
+                      TASK 2                          
+======================================================
+rho,u,v,x,y,S
+0.938219,0.975814,0.037825,0.998148,1.802491,47.395827
+0.936853,0.947854,-0.020168,0.998148,-1.800207,46.058338
+0.946933,1.096065,-0.026117,0.998148,-5.842957,18.496120
+0.948747,1.094001,0.026655,0.998148,5.862382,18.402087
+0.953369,1.041649,0.006993,-9.313176,1.802491,10.981156
+0.953710,1.041045,-0.005098,-9.313176,-1.800207,10.975169
+0.948654,1.079026,0.015811,0.998148,9.916184,10.827911
+0.950470,1.077663,-0.012400,0.998148,-9.961011,10.765610
+0.940137,0.986168,-0.096282,9.727486,1.802491,10.015657
+0.942331,0.962983,-0.012933,9.727486,-1.800207,9.735194
+0.949287,1.091015,-0.003184,9.727486,-5.842957,9.614690
+0.948731,1.088317,-0.000880,9.727486,5.862382,9.582412
+0.952241,1.049494,-0.012711,-9.313176,-5.842957,9.546472
+0.952580,1.049978,0.010730,-9.313176,5.862382,9.541703
+0.948905,1.084081,0.009303,9.727486,9.916184,7.804590
+0.949215,1.083602,0.000596,9.727486,-9.961011,7.782903
+0.951367,1.054691,0.005949,-9.313176,9.916184,7.752987
+0.950936,1.055015,-0.010543,-9.313176,-9.961011,7.737025
+0.946958,1.074702,0.006382,0.998148,13.932223,7.694199
+0.950212,1.070269,-0.006487,0.998148,-13.993340,7.629172
+0.948468,1.079553,0.004235,9.727486,13.932223,6.353323
+0.948941,1.077860,-0.001049,9.727486,-13.993340,6.324643
+0.950825,1.055151,0.004158,-9.313176,13.932223,6.296321
+0.951053,1.054976,-0.004191,-9.313176,-13.993340,6.276234
+0.948803,1.069426,0.002066,0.998148,17.933706,5.954015
+0.950560,1.067034,-0.003273,0.998148,-17.925315,5.943487
+0.947915,1.094333,0.003675,19.765434,5.862382,5.308076
+0.948161,1.077026,-0.006324,9.727486,17.933706,5.279114
+0.949518,1.087515,0.008696,19.765434,-5.842957,5.276557
+0.948668,1.075971,-0.002738,9.727486,-17.925315,5.275775
+0.950854,1.055416,-0.000178,-9.313176,-17.925315,5.224753
+0.950371,1.055551,0.004894,-9.313176,17.933706,5.223553
+0.945285,0.984762,0.048774,19.765434,-1.800207,4.967790
+0.942691,0.984285,-0.033150,19.765434,1.802491,4.962064
+0.949605,1.085770,0.006961,19.765434,9.916184,4.910107
+0.948428,1.084661,-0.001131,19.765434,-9.961011,4.900532
+0.947134,1.083741,-0.002077,19.765434,-13.993340,4.475045
+0.950299,1.080189,0.003711,19.765434,13.932223,4.466900
+0.947598,1.081230,-0.002751,19.765434,-17.925315,4.052124
+0.949543,1.078537,-0.002140,19.765434,17.933706,4.041174
+0.976312,1.064898,0.005217,29.853700,-5.842957,3.500678
+0.975635,1.059819,-0.015335,29.853700,5.862382,3.483879
+0.974098,1.061332,-0.001728,29.853700,-9.961011,3.372348
+0.975103,1.058245,-0.004842,29.853700,9.916184,3.364082
+0.975356,1.054525,-0.001958,29.853700,-13.993340,3.198391
+0.976599,1.053096,-0.000263,29.853700,13.932223,3.196561
+0.970600,0.935566,-0.015407,29.853700,1.802491,3.128563
+0.971793,0.929803,0.033540,29.853700,-1.800207,3.110906
+0.974777,1.052663,0.002175,29.853700,-17.925315,3.023003
+0.975468,1.052053,0.002042,29.853700,17.933706,3.020875
+1.032817,1.008142,0.005504,39.898223,-5.842957,2.500154
+1.032683,1.001538,-0.001648,39.898223,-9.961011,2.435482
+1.031574,0.999873,0.004826,39.898223,9.916184,2.432097
+1.030435,0.967811,0.009427,39.898223,5.862382,2.400045
+1.031271,0.999028,0.001459,39.898223,13.932223,2.363962
+1.031304,0.999503,-0.000232,39.898223,-13.993340,2.363954
+1.029272,0.939118,0.001643,39.898223,-1.800207,2.351396
+1.031590,0.997742,0.004420,39.898223,17.933706,2.280919
+1.031632,0.997499,-0.001692,39.898223,-17.925315,2.280523
+1.026524,0.838483,-0.009088,39.898223,1.802491,2.099537
+1.087203,0.961631,0.006875,49.932702,9.916184,1.889013
+1.086465,0.954957,-0.006588,49.932702,-9.961011,1.875577
+1.085621,0.938866,-0.010405,49.932702,-5.842957,1.867635
+1.084982,0.935683,0.018701,49.932702,5.862382,1.861478
+1.086231,0.956713,0.004784,49.932702,13.932223,1.845536
+1.085503,0.953287,-0.003439,49.932702,-13.993340,1.838332
+1.086140,0.953034,0.001154,49.932702,17.933706,1.796295
+1.085772,0.952159,0.000492,49.932702,-17.925315,1.794741
+1.081068,0.799260,-0.009390,49.932702,-1.800207,1.599745
+1.081891,0.776693,-0.021518,49.932702,1.802491,1.555063
+1.140055,0.922964,-0.000649,59.912909,9.916184,1.519833
+1.139887,0.920541,-0.007464,59.912909,-9.961011,1.515710
+1.138808,0.911735,-0.002899,59.912909,5.862382,1.514541
+1.138547,0.905027,-0.010682,59.912909,-5.842957,1.503542
+1.139793,0.916333,-0.000996,59.912909,13.932223,1.489695
+1.140088,0.914185,-0.005559,59.912909,-13.993340,1.485894
+1.139544,0.913164,-0.001535,59.912909,17.933706,1.460145
+1.139164,0.912419,-0.002654,59.912909,-17.925315,1.459013
+1.192557,0.883946,-0.005448,69.842225,-9.961011,1.252978
+1.134662,0.746535,0.010753,59.912909,-1.800207,1.245601
+1.193406,0.875780,0.003272,69.842225,9.916184,1.241498
+1.133605,0.740443,0.012472,59.912909,1.802491,1.235482
+1.192687,0.878376,-0.002280,69.842225,-13.993340,1.233154
+1.193142,0.874257,0.001382,69.842225,13.932223,1.227576
+1.192645,0.874186,-0.001598,69.842225,-17.925315,1.212367
+1.192751,0.873139,-0.000732,69.842225,17.933706,1.210878
+1.190691,0.834445,-0.019330,69.842225,-5.842957,1.190917
+1.191109,0.831156,0.019798,69.842225,5.862382,1.186214
+1.236358,0.874436,-0.001291,79.553366,9.916184,1.090743
+1.235168,0.868101,-0.003071,79.553366,5.862382,1.088275
+1.236445,0.861146,-0.001192,79.553366,-9.961011,1.074089
+1.236301,0.864653,0.000073,79.553366,13.932223,1.070590
+1.236228,0.861751,-0.002140,79.553366,-13.993340,1.066861
+1.236140,0.861407,0.000202,79.553366,17.933706,1.056297
+1.236224,0.860999,-0.000792,79.553366,-17.925315,1.055820
+1.234771,0.827564,-0.011165,79.553366,-5.842957,1.037563
+1.188161,0.695997,-0.008792,69.842225,-1.800207,0.996277
+1.187442,0.654912,0.014078,69.842225,1.802491,0.937607
+1.231709,0.703558,0.004322,79.553366,1.802491,0.884175
+1.232064,0.636296,-0.006388,79.553366,-1.800207,0.799671
+======================================================
+                      TASK 3                          
+======================================================
+-0.615129,-0.542734,-0.540276,-0.416907,-0.367291,-0.312982,-0.277142,-0.273358,-0.263543,-0.253004,-0.249843,-0.247485,-0.238645,-0.232579,-0.226922,-0.226180,-0.221905,-0.217233,-0.213820,-0.210765,-0.209397,-0.201775,-0.201284,-0.199013,-0.198703,-0.193083,-0.186415,-0.179343,-0.173053,-0.170039,-0.157882,-0.152148,-0.144696,-0.142815,-0.131429,-0.117841,-0.106353,-0.099142,-0.082970,-0.068147,-0.066121,-0.056692,-0.056286,-0.053061,-0.047147,-0.039400,-0.039269,-0.034622,-0.032163,-0.031160,-0.022448,-0.021784,-0.019580,-0.018326,-0.011244,-0.005390,-0.000782,-0.000441,0.000150,0.004441,0.006499,0.006956,0.007465,0.007867,0.014912,0.018192,0.019953,0.020104,0.021811,0.026894,0.030406,0.044403,0.051023,0.051225,0.053165,0.064113,0.067779,0.068715,0.070711,0.070883,0.077813,0.078116,0.079199,0.086397,0.086899,0.100221,0.109630,0.115464,0.121689,0.127641,0.127902,0.128847,0.131355,0.132354,0.141491,0.169378,0.171278,0.179794,0.181315,0.186243,0.191017,0.192024,0.193234,0.193340,0.195189,0.195796,0.195859,0.199902,0.203245,0.209508,0.210147,0.221828,0.226934,0.233726,0.247341,0.263314,0.264563,0.273136,0.286925,0.314687,0.315136,0.322860,0.345609,0.350503,0.355121,0.368337,0.372871,0.376808,0.376901,0.389455,0.390743,0.392312,0.393749,0.395294,0.407350,0.409352,0.411503,0.415171
+0.731711,0.626520,0.392312,0.562610,0.494207,0.454274,0.421708,0.409352,0.415171
+-0.615129,-0.542734,-0.540276,-0.416907,-0.367291,-0.312982,-0.277142,-0.273358,-0.263543,-0.253004,-0.249843,-0.247485,-0.238645,-0.232579,-0.226922,-0.226180,-0.221905,-0.217233,-0.213820,-0.210765,-0.209397,-0.201775,-0.201284,-0.199013,-0.198703,-0.193083,-0.186415,-0.179343,-0.173053,-0.170039,-0.157882,-0.152148,-0.144696,-0.142815,-0.131429,-0.117841,-0.106353,-0.099142,-0.082970,-0.068147,-0.066121,-0.056692,-0.056286,-0.053061,-0.047147,-0.039400,-0.039269,-0.034622,-0.032163,-0.031160,-0.022448,-0.021784,-0.019580,-0.018326,-0.011244,-0.005390,-0.000782,-0.000441,0.000150,0.004441,0.006499,0.006956,0.007465,0.007867,0.014912,0.018192,0.019953,0.020104,0.021811,0.026894,0.030406,0.044403,0.051023,0.051225,0.053165,0.064113,0.067779,0.068715,0.070711,0.070883,0.077813,0.078116,0.079199,0.086397,0.086899,0.100221,0.109630,0.115464,0.121689,0.127641,0.127902,0.128847,0.131355,0.132354,0.141491,0.169378,0.171278,0.179794,0.181315,0.186243,0.191017,0.192024,0.193234,0.193340,0.195189,0.195796,0.195859,0.199902,0.203245,0.209508,0.210147,0.221828,0.226934,0.233726,0.247341,0.263314,0.264563,0.273136,0.286925,0.314687,0.315136,0.322860,0.345609,0.350503,0.355121,0.368337,0.372871,0.376808,0.376901,0.389455,0.390743,0.392312,0.393749,0.395294,0.407350,0.409352,0.411503,0.415171
+0.731711,0.626520,0.392312,0.562610,0.494207,0.454274,0.421708,0.409352,0.415171
+======================================================
+                      TASK 4                          
+======================================================
+threshold,points
+5,417582
+10,1578
+15,363
+20,88
+25,18
+======================================================
+============================================
+src/tasks.c
+20:38:11_Thursday_12_September_2019
+============================================
+/***************************************************************************
+ *
+ *   File        : tasks.c
+ *   Student Id  : <1010124>
+ *   Name        : <Yuxuan Liang>
+ *
+ ***************************************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <sys/time.h>
+#include <string.h>
+#include "tasks.h"
+#include <assert.h>
+
+#define INITIAL_SIZE 5000
+#define MAX_BUF_LEN 2048
+#define DATA_COLUMNS_OF_RHO_U_V_X_Y 5
+#define TASK1_AFTER_X 20
+#define TASK1_LINES_TO_PRINT 4
+#define TASK2_X_LEFT_BOUNDARY -15
+#define TASK2_X_RIGHT_BOUNDARY 85
+#define TASK2_Y_UP_BOUNDARY 20
+#define TASK2_Y_DOWN_BOUNDARY -20
+#define TASK4_FIRST_THRESHOLD 5
+#define TASK4_LAST_THRESHOLD 25
+#define TASK4_THRESHOLD_INTERVAL 5
+#define BST_SUCCESS 1
+#define BST_FAILURE 0
+
+FILE * safe_fopen(const char* path, const char* mode)
+{
+	FILE* fp = fopen(path, mode);
+	if (fp == NULL) {
+		perror("file open error.");
+		exit(EXIT_FAILURE);
+	}
+	return fp;
+}
+
+void* safe_malloc(size_t num_bytes)
+{
+	void* ptr = malloc(num_bytes);
+	if (ptr == NULL) {
+		printf("ERROR: malloc(%lu)\n", num_bytes);
+		exit(EXIT_FAILURE);
+	}
+	return ptr;
+}
+
+void* safe_realloc(void* ptr, size_t num_bytes)
+{
+	void* new_ptr = realloc(ptr, num_bytes);
+	if (new_ptr == NULL) {
+		printf("ERROR: realloc(%lu)\n", num_bytes);
+		exit(EXIT_FAILURE);
+	}
+	return new_ptr;
+}
+
+typedef struct {
+	double rho;
+	double u;
+	double v;
+	double x;
+	double y;
+} data_t;
+
+typedef struct {
+	double avg_rho;
+	double avg_u;
+	double avg_v;
+	double avg_x;
+	double avg_y;
+	double score;
+} avg_t;
+
+// copy and modify the functions of linked-list, bst, binary search and merge sort from LMS
+typedef struct list_node list_node_t;
+
+struct list_node
+{
+	double data;
+	list_node_t* next;
+};
+
+typedef struct
+{
+	int num_elements;
+	list_node_t* head;
+	list_node_t* tail;
+	void (*del)(void*);
+} list_t;
+
+typedef struct bst_node bst_node_t;
+
+struct bst_node
+{
+	double data;
+	bst_node_t* left;
+	bst_node_t* right;
+};
+
+typedef struct {
+	int num_elements;
+	bst_node_t* root;
+	void (*del)(double);
+	int (*cmp)(const double, const double);
+} bst_t;
+
+list_t* list_new(void (*delfunc)(void*))
+{
+	list_t* list;
+	list = (list_t*)safe_malloc(sizeof(list_t));
+	list->head = NULL;
+	list->tail = NULL;
+	list->num_elements = 0;
+	list->del = delfunc;
+	return list;
+}
+
+void list_search(list_t* list, double d)
+{
+	FILE* fp = safe_fopen("task3.csv", "a");
+	list_node_t* tmp = list->head;
+	while (tmp && tmp->data != d) {
+		fprintf(fp, "%.6f,", tmp->data);
+		tmp = tmp->next;
+	}
+	fprintf(fp, "%.6f\n", tmp->data);
+	fclose(fp);
+}
+
+double list_pop_front(list_t* list)
+{
+	assert(list != NULL);
+	assert(list->num_elements > 0);
+	list_node_t* old;
+	assert(list->head != NULL);
+	old = list->head;
+	list->head = list->head->next;
+	double d = old->data;
+	free(old);
+	list->num_elements--;
+	if (list->num_elements == 0) {
+		list->head = NULL;
+		list->tail = NULL;
+	}
+	return d;
+}
+
+void list_push_back(list_t* list, double d)
+{
+	assert(list != NULL);
+	list_node_t* new = (list_node_t*)safe_malloc(sizeof(list_node_t));
+	new->data = d;
+	new->next = NULL;
+	if (list->tail)
+		list->tail->next = new;
+	list->tail = new;
+	if (list->head == NULL)
+		list->head = new;
+	list->num_elements++;
+}
+
+void list_free(list_t* list)
+{
+	assert(list != NULL);
+	while (list->num_elements) {
+		list_pop_front(list);
+	}
+	free(list);
+}
+
+bst_t* bst_new(void (*delfunc)(double), int (*cmpfunc)(const double, const double))
+{
+	bst_t* bst;
+	bst = (bst_t*)safe_malloc(sizeof(bst_t));
+	bst->root = NULL;
+	bst->num_elements = 0;
+	bst->del = delfunc;
+	bst->cmp = cmpfunc;
+	return bst;
+}
+
+/* free all memory assocated with a subtree */
+void bst_free_subtree(bst_t* bst, bst_node_t* n)
+{
+	assert(bst != NULL);
+	if (n) {
+		bst_free_subtree(bst, n->left);
+		bst_free_subtree(bst, n->right);
+		bst->del(n->data);
+		free(n);
+		bst->num_elements--;
+	}
+}
+
+/* free all memory associated with a bst */
+void bst_free(bst_t* bst)
+{
+	assert(bst != NULL);
+	bst_free_subtree(bst, bst->root);
+	free(bst);
+}
+
+/* insert a new element into the bst */
+int bst_insert(bst_t* bst, double d)
+{
+	assert(bst != NULL);
+	bst_node_t* parent = NULL;
+	bst_node_t* tmp = bst->root;
+	while (tmp) {
+		parent = tmp;
+		if (bst->cmp(tmp->data, d) > 0) { // element is smaller
+			tmp = tmp->left;
+		}
+		else if (bst->cmp(tmp->data, d) < 0) { // element is bigger
+			tmp = tmp->right;
+		}
+		else {
+			/* ALREADY EXISTS! -> do nothing and return ERROR */
+			return BST_FAILURE;
+		}
+	}
+
+	/* insert as child of parent */
+	bst_node_t* new_node = (bst_node_t*)safe_malloc(sizeof(bst_node_t));
+	new_node->data = d;
+	new_node->left = NULL;
+	new_node->right = NULL;
+	if (parent != NULL) {
+		if (bst->cmp(parent->data, d) > 0) { // element is smaller
+			assert(parent->left == NULL);
+			parent->left = new_node;
+		}
+		else {
+			assert(parent->right == NULL);
+			parent->right = new_node;
+		}
+	}
+	else {
+		assert(bst->root == NULL);
+		bst->root = new_node;
+	}
+	bst->num_elements++;
+
+	return BST_SUCCESS;
+}
+
+bst_node_t* bst_find(bst_t* bst, double d) {
+	assert(bst != NULL);
+	bst_node_t* tmp = bst->root;
+	FILE* fp = safe_fopen("task3.csv", "a");
+	while (tmp) {
+		if (bst->cmp(tmp->data, d) > 0) { // element is smaller
+			fprintf(fp, "%.6f,", tmp->data);
+			tmp = tmp->left;
+		}
+		else if (bst->cmp(tmp->data, d) < 0) { // element is bigger
+			fprintf(fp, "%.6f,", tmp->data);
+			tmp = tmp->right;
+		}
+		else {
+			fprintf(fp, "%.6f\n", tmp->data);
+			break;
+		}
+	}
+	fclose(fp);
+	return tmp;
+}
+
+void perfect_insert(bst_t* bst, double* array, int low, int high)
+{
+	if (low <= high) {
+		int mid = low + (high - low) / 2;
+		double* ptr = array + mid;
+		bst_insert(bst, *ptr);
+		perfect_insert(bst, array, low, mid - 1);
+		perfect_insert(bst, array, mid + 1, high);
+	}
+}
+
+void no_free(double v)
+{
+}
+
+int make_unique(double* array, int n)
+{
+	int dest = 0;
+	int itr = 1;
+	while (itr != n) {
+		if (array[dest] != array[itr]) {
+			array[++dest] = array[itr];
+		}
+		itr++;
+	}
+	return dest + 1;
+}
+
+int binary_search(double* A, int lo, int hi, double x)
+{
+	FILE* fp = safe_fopen("task3.csv", "a");
+	while (lo <= hi)
+	{
+		int m = (lo + hi) / 2;
+		if (x < A[m]) {
+			fprintf(fp, "%.6f,", A[m]);
+			hi = m - 1;
+		}
+		else if (x > A[m]) {
+			fprintf(fp, "%.6f,", A[m]);
+			lo = m + 1;
+		}
+		else {
+			fprintf(fp, "%.6f\n", A[m]);
+			fclose(fp);
+			return m;
+		}
+	}
+	return -1;
+}
+
+// the merge sort on LMS, I use it to sort structure arrays
+void struct_merge(void** array, int n, int mid, int cmp(const void*, const void*))
+{
+	// need extra space for merging
+	void** tmp = safe_malloc(n * sizeof(void*));
+	void** left = array;
+	void** right = array + mid;
+	int i = 0;
+	int j = 0;
+	int left_size = mid;
+	int right_size = n - mid;
+	// perform the merge
+	for (int k = 0; k < n; k++) {
+		if (j == right_size)
+			tmp[k] = left[i++];
+		else if (i == left_size)
+			tmp[k] = right[j++];
+		else if (cmp(left[i], right[j]) < 1)
+			tmp[k] = left[i++];
+		else
+			tmp[k] = right[j++];
+	}
+	// copy the merged array
+	for (int i = 0; i < n; i++) {
+		array[i] = tmp[i];
+	}
+	// clean up
+	free(tmp);
+}
+
+void struct_merge_sort(void** array, int n, int cmp(const void*, const void*))
+{
+	if (n > 1) {
+		int mid = n / 2;
+		struct_merge_sort(array, mid, cmp);
+		struct_merge_sort(array + mid, n - mid, cmp);
+		struct_merge(array, n, mid, cmp);
+	}
+}
+
+// I modified the merge sort function to another one whose first argument is an array instead of a pointer to the array, so that I don't have to allocate extra memory for a pointer to every simple array
+void merge(double* array, int n, int mid, int cmp(const void*, const void*))
+{
+	// need extra space for merging
+	double* tmp = safe_malloc(n * sizeof(double));
+	double* left = array;
+	double* right = array + mid;
+	int i = 0;
+	int j = 0;
+	int left_size = mid;
+	int right_size = n - mid;
+	// perform the merge
+	for (int k = 0; k < n; k++) {
+		if (j == right_size)
+			tmp[k] = left[i++];
+		else if (i == left_size)
+			tmp[k] = right[j++];
+		else if (cmp(&left[i], &right[j]) < 1)
+			tmp[k] = left[i++];
+		else
+			tmp[k] = right[j++];
+	}
+	// copy the merged array
+	for (int i = 0; i < n; i++) {
+		array[i] = tmp[i];
+	}
+	// clean up
+	free(tmp);
+}
+
+void merge_sort(double* array, int n, int cmp(const void*, const void*))
+{
+	if (n > 1) {
+		int mid = n / 2;
+		merge_sort(array, mid, cmp);
+		merge_sort(array + mid, n - mid, cmp);
+		merge(array, n, mid, cmp);
+	}
+}
+
+int x_cmp(const void* a, const void* b)
+{
+	data_t* aa = (data_t*)a;
+	data_t* bb = (data_t*)b;
+	return aa->x > bb->x ? 1 : -1;
+}
+
+int score_cmp(const void* a, const void* b)
+{
+	avg_t* aa = (avg_t*)a;
+	avg_t* bb = (avg_t*)b;
+	return aa->score < bb->score ? 1 : -1;
+}
+
+int double_array_cmp(const void* a, const void* b)
+{
+	double aa = *(double*)a;
+	double bb = *(double*)b;
+	return aa > bb ? 1 : -1;
+}
+
+int double_cmp(const double a, const double b)
+{
+	if (a == b)
+	{
+		return 0;
+	}
+	return a > b ? 1 : -1;
+}
+
+void maxfluxdiff(const char* flow_file)
+{
+	int size = INITIAL_SIZE, data_read = 0;
+	data_t* data = (data_t*)safe_malloc(size * sizeof(data_t));
+	FILE* fp = safe_fopen(flow_file, "r");
+	char* buf = (char*)safe_malloc(MAX_BUF_LEN * sizeof(char));
+	fgets(buf, MAX_BUF_LEN, fp); // skip the first line of the file
+	free(buf);
+	while (fscanf(fp, "%lf,%lf,%lf,%lf,%lf\n", &data[data_read].rho, &data[data_read].u, &data[data_read].v, &data[data_read].x, &data[data_read].y) == DATA_COLUMNS_OF_RHO_U_V_X_Y)
+	{
+		data_read++;
+		// when the lines reach the maximum size of the matrix, double the size
+		if (size == data_read)
+		{
+			size = 2 * size;
+			data = (data_t*)safe_realloc(data, size * sizeof(data_t));
+		}
+	}
+	fclose(fp);
+	size = data_read; // record number of rows of the data (except the title)
+	data = (data_t*)safe_realloc(data, size * sizeof(data_t)); // realloc the memory to the final size (free the extra memory)
+
+	double rhoumax, rhoumin, rhovmax, rhovmin;
+	int index_of_rhoumax, index_of_rhoumin, index_of_rhovmax, index_of_rhovmin;
+
+	for (int i = 0; i < size; i++)
+	{
+		if (data[i].x > TASK1_AFTER_X)
+		{
+			rhoumax = data[i].rho * data[i].u;
+			rhoumin = data[i].rho * data[i].u;
+			rhovmax = data[i].rho * data[i].v;
+			rhovmin = data[i].rho * data[i].v;
+			index_of_rhoumax = i;
+			index_of_rhoumin = i;
+			index_of_rhovmax = i;
+			index_of_rhovmin = i;
+			break;
+		}
+	}
+
+	for (int i = 0; i < size; i++)
+	{
+		if (data[i].x > TASK1_AFTER_X)
+		{
+			if (data[i].rho * data[i].u > rhoumax) { rhoumax = data[i].rho * data[i].u; index_of_rhoumax = i; }
+			if (data[i].rho * data[i].u < rhoumin) { rhoumin = data[i].rho * data[i].u; index_of_rhoumin = i; }
+			if (data[i].rho * data[i].v > rhovmax) { rhovmax = data[i].rho * data[i].v; index_of_rhovmax = i; }
+			if (data[i].rho * data[i].v < rhovmin) { rhovmin = data[i].rho * data[i].v; index_of_rhovmin = i; }
+		}
+	}
+	fp = safe_fopen("task1.csv", "a");
+	fprintf(fp, "rho,u,v,x,y\n");
+	fprintf(fp, "%.6f,%.6f,%.6f,%.6f,%.6f\n", data[index_of_rhoumax].rho, data[index_of_rhoumax].u, data[index_of_rhoumax].v, data[index_of_rhoumax].x, data[index_of_rhoumax].y);
+	fprintf(fp, "%.6f,%.6f,%.6f,%.6f,%.6f\n", data[index_of_rhoumin].rho, data[index_of_rhoumin].u, data[index_of_rhoumin].v, data[index_of_rhoumin].x, data[index_of_rhoumin].y);
+	fprintf(fp, "%.6f,%.6f,%.6f,%.6f,%.6f\n", data[index_of_rhovmax].rho, data[index_of_rhovmax].u, data[index_of_rhovmax].v, data[index_of_rhovmax].x, data[index_of_rhovmax].y);
+	fprintf(fp, "%.6f,%.6f,%.6f,%.6f,%.6f\n", data[index_of_rhovmin].rho, data[index_of_rhovmin].u, data[index_of_rhovmin].v, data[index_of_rhovmin].x, data[index_of_rhovmin].y);
+	fclose(fp);
+
+	free(data);
+}
+
+void coarsegrid(const char* flow_file, int resolution)
+{
+	int size = INITIAL_SIZE, data_read = 0;
+	data_t** data = (data_t**)safe_malloc(size * sizeof(data_t*));
+	for (int i = 0; i < size; i++)
+	{
+		data[i] = (data_t*)safe_malloc(sizeof(data_t));
+		memset(data[i], 0, sizeof(data_t));
+	}
+
+	FILE* fp = safe_fopen(flow_file, "r");
+	char* buf = (char*)safe_malloc(MAX_BUF_LEN * sizeof(char));
+	fgets(buf, MAX_BUF_LEN, fp); // skip the first line of the file
+	free(buf);
+
+	while (fscanf(fp, "%lf,%lf,%lf,%lf,%lf\n", &data[data_read]->rho, &data[data_read]->u, &data[data_read]->v, &data[data_read]->x, &data[data_read]->y) == DATA_COLUMNS_OF_RHO_U_V_X_Y)
+	{
+		data_read++;
+		// when the lines reach the maximum size of the matrix, double the size
+		if (size == data_read)
+		{
+			data = (data_t**)safe_realloc(data, 2 * size * sizeof(data_t*));
+			for (int i = size; i < 2 * size; i++)
+			{
+				data[i] = (data_t*)safe_malloc(sizeof(data_t));
+				memset(data[i], 0, sizeof(data_t));
+			}
+			size = 2 * size;
+		}
+	}
+	fclose(fp);
+
+	for (int i = data_read; i < size; i++)
+	{
+		free(data[i]);
+	}
+	size = data_read; // record number of rows of the data (except the title)
+	data = (data_t**)safe_realloc(data, size * sizeof(data_t*)); //realloc the memory to the final size (free the extra memory)
+
+	struct_merge_sort((void**)data, size, x_cmp); // use merge sort as a stable sorting method to sort the data in the ascending order of x
+
+	int num_of_grid = pow(resolution, 2);
+
+	avg_t** avg = (avg_t**)safe_malloc(num_of_grid * sizeof(avg_t*));
+	for (int i = 0; i < num_of_grid; i++)
+	{
+		avg[i] = (avg_t*)safe_malloc(sizeof(avg_t));
+		memset(avg[i], 0, sizeof(avg_t));
+	}
+	int x_interval = (TASK2_X_RIGHT_BOUNDARY - TASK2_X_LEFT_BOUNDARY) / resolution;
+	int	y_interval = (TASK2_Y_UP_BOUNDARY - TASK2_Y_DOWN_BOUNDARY) / resolution;
+	int points_in_grid = 0;
+	int avg_index = 0;
+	int i = 0, x_left_boundary_index = 0;
+
+	for (int x_left_boundary = TASK2_X_LEFT_BOUNDARY, x_right_boundary = TASK2_X_LEFT_BOUNDARY + x_interval; x_right_boundary <= TASK2_X_RIGHT_BOUNDARY; x_left_boundary += x_interval, x_right_boundary += x_interval)
+	{
+		for (int y_down_boundary = TASK2_Y_DOWN_BOUNDARY, y_up_boundary = TASK2_Y_DOWN_BOUNDARY + y_interval; y_up_boundary <= TASK2_Y_UP_BOUNDARY; y_down_boundary += y_interval, y_up_boundary += y_interval)
+		{
+			points_in_grid = 0;
+			for (i = x_left_boundary_index; i < size && data[i]->x < x_right_boundary; i++)
+			{
+				if (data[i]->x > x_left_boundary && data[i]->y > y_down_boundary && data[i]->y < y_up_boundary)
+				{
+					points_in_grid++;
+					// sum up the data of points in a certain grid
+					avg[avg_index]->avg_rho += data[i]->rho;
+					avg[avg_index]->avg_u += data[i]->u;
+					avg[avg_index]->avg_v += data[i]->v;
+					avg[avg_index]->avg_x += data[i]->x;
+					avg[avg_index]->avg_y += data[i]->y;
+				}
+			}
+			// divide the sum by number of points to get the average
+			avg[avg_index]->avg_rho /= points_in_grid;
+			avg[avg_index]->avg_u /= points_in_grid;
+			avg[avg_index]->avg_v /= points_in_grid;
+			avg[avg_index]->avg_x /= points_in_grid;
+			avg[avg_index]->avg_y /= points_in_grid;
+			avg[avg_index]->score = 100 * sqrt(pow(avg[avg_index]->avg_u, 2) + pow(avg[avg_index]->avg_v, 2)) / sqrt(pow(avg[avg_index]->avg_x, 2) + pow(avg[avg_index]->avg_y, 2));
+			avg_index++;
+		}
+		x_left_boundary_index = i;
+	}
+	struct_merge_sort((void**)avg, num_of_grid, score_cmp); // use merge sort as a stable sorting method to sort the avg in the descending order of score
+
+	fp = safe_fopen("task2.csv", "a");
+	fprintf(fp, "rho,u,v,x,y,S\n");
+	for (i = 0; i < num_of_grid; i++)
+	{
+		fprintf(fp, "%.6f,%.6f,%.6f,%.6f,%.6f,%.6f\n", avg[i]->avg_rho, avg[i]->avg_u, avg[i]->avg_v, avg[i]->avg_x, avg[i]->avg_y, avg[i]->score);
+	}
+	fclose(fp);
+	for (i = 0; i < num_of_grid; i++)
+	{
+		free(avg[i]);
+	}
+
+	free(avg);
+
+	for (int i = 0; i < size; i++)
+	{
+		free(data[i]);
+	}
+
+	free(data);
+}
+
+void searching(const char* flow_file)
+{
+	int size = INITIAL_SIZE, data_read = 0;
+	data_t* data = (data_t*)safe_malloc(size * sizeof(data_t));
+	FILE* fp = safe_fopen(flow_file, "r");
+	char* buf = (char*)safe_malloc(MAX_BUF_LEN * sizeof(char));
+	fgets(buf, MAX_BUF_LEN, fp); // skip the first line of the file
+	free(buf);
+	while (fscanf(fp, "%lf,%lf,%lf,%lf,%lf\n", &data[data_read].rho, &data[data_read].u, &data[data_read].v, &data[data_read].x, &data[data_read].y) == DATA_COLUMNS_OF_RHO_U_V_X_Y)
+	{
+		data_read++;
+		// when the lines reach the maximum size of the matrix, double the size
+		if (size == data_read)
+		{
+			size = 2 * size;
+			data = (data_t*)safe_realloc(data, size * sizeof(data_t));
+		}
+	}
+	fclose(fp);
+	size = data_read; // record number of rows of the data (except the title)
+	data = (data_t*)safe_realloc(data, size * sizeof(data_t)); //realloc the memory to the final size (free the extra memory)
+
+	// allocate an array to store the streamwise flux of points at centreline
+	double* array = (double*)safe_malloc(size * sizeof(double));
+	memset(array, 0, size * sizeof(double));
+
+	int points_at_centreline = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (data[i].y == 0)
+		{
+			array[points_at_centreline] = data[i].rho * data[i].u;
+			points_at_centreline++;
+		}
+	}
+	// realloc the array to the number of points at centreline
+	array = (double*)safe_realloc(array, points_at_centreline * sizeof(double));
+
+	// sort the array by using merge sort
+	merge_sort(array, points_at_centreline, double_array_cmp);
+	
+	int aim_value_index = 0;
+	double aim_value = 0;
+
+	// find the index of two value that are closest to 40% of maximum rho*u, i.e. aim_value_index and (aim_value_index + 1)
+	for (aim_value_index = 0; aim_value_index < points_at_centreline && array[aim_value_index] < 0.4 * array[points_at_centreline - 1]; aim_value_index++);
+
+	// find the one which is closer to 40% of maximum rho*u
+	aim_value = array[aim_value_index - 1] - 0.4 * array[points_at_centreline - 1] < array[aim_value_index] - 0.4 * array[points_at_centreline - 1] ? array[aim_value_index - 1] : array[aim_value_index];
+
+	// create a new linked list and insert the values at the back of it
+	list_t* list = list_new(free);
+	assert(list->num_elements == 0);
+	for (int i = 0; i < points_at_centreline; i++)
+	{
+		list_push_back(list, array[i]);
+	}
+
+	// create a balanced BST and insert the values into it
+	bst_t* bst = bst_new(no_free, double_cmp);
+	int n = make_unique(array, points_at_centreline);
+	perfect_insert(bst, array, 0, n - 1);
+	assert(bst->num_elements == n);
+
+	struct timeval start;
+	struct timeval stop;
+
+	// linear search on the array to find the value
+	gettimeofday(&start, NULL);
+	fp = safe_fopen("task3.csv", "a");
+	for (int i = 0; i < points_at_centreline; i++)
+	{
+		if (array[i] == aim_value)
+		{
+			fprintf(fp, "%.6f\n", array[i]);
+			break;
+		}
+		else
+		{
+			fprintf(fp, "%.6f,", array[i]);
+		}
+	}
+	fclose(fp);
+
+	gettimeofday(&stop, NULL);
+	double elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 3 Array Linear Search:  %.2f milliseconds\n", elapsed_ms);
+
+	// binary search on the array to find the value
+	gettimeofday(&start, NULL);
+	binary_search(array, 0, points_at_centreline - 1, aim_value);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 3 Array Binary Search:  %.2f milliseconds\n", elapsed_ms);
+
+	// linear search on the linked list to find the value
+	gettimeofday(&start, NULL);
+	list_search(list, aim_value);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 3 List Linear Search:  %.2f milliseconds\n", elapsed_ms);
+
+	// search on the balanced BST for the value
+	gettimeofday(&start, NULL);
+	bst_find(bst, aim_value);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 3 BST Search:  %.2f milliseconds\n", elapsed_ms);
+
+	// free all the memory
+	bst_free(bst);
+	list_free(list);
+	free(array);
+
+	free(data);
+}
+
+void vortcalc(const char* flow_file)
+{
+	int size = INITIAL_SIZE, data_read = 0;
+	data_t* data = (data_t*)safe_malloc(size * sizeof(data_t));
+	FILE* fp = safe_fopen(flow_file, "r");
+	char* buf = (char*)safe_malloc(MAX_BUF_LEN * sizeof(char));
+	fgets(buf, MAX_BUF_LEN, fp); // skip the first line of the file
+	free(buf);
+	while (fscanf(fp, "%lf,%lf,%lf,%lf,%lf\n", &data[data_read].rho, &data[data_read].u, &data[data_read].v, &data[data_read].x, &data[data_read].y) == DATA_COLUMNS_OF_RHO_U_V_X_Y)
+	{
+		data_read++;
+		// when the lines reach the maximum size of the matrix, double the size
+		if (size == data_read)
+		{
+			size = 2 * size;
+			data = (data_t*)safe_realloc(data, size * sizeof(data_t));
+		}
+	}
+	fclose(fp);
+	size = data_read; //record number of rows of the data (except the title)
+	data = (data_t*)safe_realloc(data, size * sizeof(data_t)); //realloc the memory to the final size (free the extra memory)
+
+	// get n and m
+	int n = 1;
+	while (data[n - 1].y == data[n].y)
+	{
+		n++;
+	}
+	int m = size / n;
+
+	// create a n * m 2D array
+	int** array = (int**)safe_malloc(n * sizeof(int*));
+	for (int i = 0; i < n; i++)
+	{
+		array[i] = (int*)safe_malloc(m * sizeof(int));
+	}
+
+	// store the index of data in 2D array
+	int index = 0;
+	for (int j = 0; j < m; j++)
+	{
+		for (int i = 0; i < n; i++)
+		{
+			array[i][j] = index;
+			index++;
+		}
+	}
+
+	// create an 1D array to store omega, ignoring the sequence
+	double* omega = (double*)safe_malloc(size * sizeof(double));
+	int omega_index = 0;
+
+	// calculate omega for i go from 0:n-2 and for j go from 0:m-2
+	for (int i = 0; i <= n - 2; i++)
+	{
+		for (int j = 0; j <= m - 2; j++)
+		{
+			omega[omega_index] = (data[array[i + 1][j]].v - data[array[i][j]].v) / (data[array[i + 1][j]].x - data[array[i][j]].x) - (data[array[i][j + 1]].u - data[array[i][j]].u) / (data[array[i][j + 1]].y - data[array[i][j]].y);
+			omega_index++;
+		}
+	}
+	// calculate omega for i = n - 1
+	for (int j = 0; j < m - 1; j++)
+	{
+		omega[omega_index] = (data[array[n - 1][j]].v - data[array[n - 2][j]].v) / (data[array[n - 1][j]].x - data[array[n - 2][j]].x) - (data[array[n - 1][j + 1]].u - data[array[n - 1][j]].u) / (data[array[n - 1][j + 1]].y - data[array[n - 1][j]].y);
+		omega_index++;
+	}
+	// calculate omega for j = m - 1
+	for (int i = 0; i < n - 1; i++)
+	{
+		omega[omega_index] = (data[array[i + 1][m - 1]].v - data[array[i][m - 1]].v) / (data[array[i + 1][m - 1]].x - data[array[i][m - 1]].x) - (data[array[i][m - 1]].u - data[array[i][m - 2]].u) / (data[array[i][m - 1]].y - data[array[i][m - 2]].y);
+		omega_index++;
+	}
+	// calculate omega for i = n - 1 and j = m - 1
+	omega[omega_index] = (data[array[n - 1][m - 1]].v - data[array[n - 2][m - 1]].v) / (data[array[n - 1][m - 1]].x - data[array[n - 2][m - 1]].x) - (data[array[n - 1][m - 1]].u - data[array[n - 1][m - 2]].u) / (data[array[n - 1][m - 1]].y - data[array[n - 1][m - 2]].y);
+
+	for (int i = 0; i < size; i++)
+	{
+		omega[i] = fabs(omega[i]); // get the absolute omega
+	}
+
+	// sort the absolute value of omega
+	merge_sort(omega, size, double_array_cmp);
+	omega_index = 0;
+
+	//report the number of datapoints
+	fp = safe_fopen("task4.csv", "a");
+	fprintf(fp, "threshold,points\n");
+	for (int threshold = TASK4_FIRST_THRESHOLD, points = 0; threshold <= TASK4_LAST_THRESHOLD; threshold += TASK4_THRESHOLD_INTERVAL)
+	{
+		points = 0;
+		while (omega_index < size && omega[omega_index] >= threshold - TASK4_THRESHOLD_INTERVAL && omega[omega_index] < threshold)
+		{
+			points++;
+			omega_index++;
+		}
+		fprintf(fp, "%d,%d\n", threshold, points);
+	}
+	fclose(fp);
+
+	//free all the memory
+	free(omega);
+
+	for (int i = 0; i < n; i++)
+	{
+		free(array[i]);
+	}
+	free(array);
+
+	free(data);
+
+}============================================
+src/tasks.h
+20:38:11_Thursday_12_September_2019
+============================================
+/***************************************************************************
+ *
+ *   File        : tasks.h
+ *   Student Id  : <1010124>
+ *   Name        : <Yuxuan Liang>
+ *
+ ***************************************************************************/
+
+#ifndef TASKS_H
+
+void maxfluxdiff(const char* flow_file);
+
+void coarsegrid(const char* flow_file, int resolution);
+
+void searching(const char* flow_file);
+
+void vortcalc(const char* flow_file);
+
+#endif
+============================================
+src/main.c
+20:38:11_Thursday_12_September_2019
+============================================
+/***************************************************************************
+ *
+ *   File        : main.c
+ *   Student Id  : <1010124>
+ *   Name        : <Yuxuan Liang>
+ *
+ ***************************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <sys/time.h>
+#include <string.h>
+#include "tasks.h"
+#include <assert.h>
+
+
+
+
+
+int main(int argc, char* argv[]) {
+
+	/* TODO: Parse Command Line Arguments */
+	char* flow_file = NULL;
+	int resolution = 0;
+
+	flow_file = argv[1];
+	resolution = atoi(argv[2]);
+
+	struct timeval start;
+	struct timeval stop;
+
+	/* Task 1: Find the maximum flux difference */
+	gettimeofday(&start, NULL);
+	maxfluxdiff(flow_file);
+	gettimeofday(&stop, NULL);
+	double elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 1:  %.2f milliseconds\n", elapsed_ms);
+
+	/* Task 2: Interpolating on a coarser grid */
+	gettimeofday(&start, NULL);
+	coarsegrid(flow_file, resolution);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 2:  %.2f milliseconds\n", elapsed_ms);
+
+	/* Task 3: Searching */
+	gettimeofday(&start, NULL);
+	searching(flow_file);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 3:  %.2f milliseconds\n", elapsed_ms);
+
+	/* Task 4: Statistics */
+	gettimeofday(&start, NULL);
+	vortcalc(flow_file);
+	gettimeofday(&stop, NULL);
+	elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+	elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+	printf("TASK 4:  %.2f milliseconds\n", elapsed_ms);
+
+
+	return (EXIT_SUCCESS);
+}
